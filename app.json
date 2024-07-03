@@ -2,6 +2,39 @@
   "expo": {
     "name": "test_native",
     "slug": "test_native",
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "extra": {
+      "eas": {
+        "projectId": "aea0485f-d728-4476-bfbd-4840b182633a"
+      }
+    },
+    "owner": "aurelexpo",
+    "platforms": ["ios", "android"],
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "assets": {
+      "fonts": [
+        {
+          "asset": "./assets/Urbanist-VariableFont_wght.ttf",
+          "fontWeight": ["normal"],
+          "fontStyle": "normal"
+        }
+      ]
+    }
   }
 }
